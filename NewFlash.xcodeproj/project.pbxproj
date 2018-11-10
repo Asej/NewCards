@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1AE5832197785500027507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AE5822197785500027507 /* AppDelegate.swift */; };
+		EF1AE5852197785500027507 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AE5842197785500027507 /* ViewController.swift */; };
+		EF1AE5882197785500027507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1AE5862197785500027507 /* Main.storyboard */; };
+		EF1AE58A2197785800027507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1AE5892197785800027507 /* Assets.xcassets */; };
+		EF1AE58D2197785800027507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1AE58B2197785800027507 /* LaunchScreen.storyboard */; };
+		EF1AE5982197785800027507 /* NewFlashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AE5972197785800027507 /* NewFlashTests.swift */; };
+		EF1AE5A32197785900027507 /* NewFlashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AE5A22197785900027507 /* NewFlashUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1AE5942197785800027507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1AE5772197785500027507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1AE57E2197785500027507;
+			remoteInfo = NewFlash;
+		};
+		EF1AE59F2197785800027507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1AE5772197785500027507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1AE57E2197785500027507;
+			remoteInfo = NewFlash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF1AE57F2197785500027507 /* NewFlash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewFlash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1AE5822197785500027507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF1AE5842197785500027507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF1AE5872197785500027507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1AE5892197785800027507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1AE58C2197785800027507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1AE58E2197785800027507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1AE5932197785800027507 /* NewFlashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewFlashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1AE5972197785800027507 /* NewFlashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFlashTests.swift; sourceTree = "<group>"; };
+		EF1AE5992197785800027507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1AE59E2197785800027507 /* NewFlashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewFlashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1AE5A22197785900027507 /* NewFlashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFlashUITests.swift; sourceTree = "<group>"; };
+		EF1AE5A42197785900027507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1AE57C2197785500027507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1AE5902197785800027507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1AE59B2197785800027507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1AE5762197785500027507 = {
+			isa = PBXGroup;
+			children = (
+				EF1AE5812197785500027507 /* NewFlash */,
+				EF1AE5962197785800027507 /* NewFlashTests */,
+				EF1AE5A12197785800027507 /* NewFlashUITests */,
+				EF1AE5802197785500027507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1AE5802197785500027507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1AE57F2197785500027507 /* NewFlash.app */,
+				EF1AE5932197785800027507 /* NewFlashTests.xctest */,
+				EF1AE59E2197785800027507 /* NewFlashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1AE5812197785500027507 /* NewFlash */ = {
+			isa = PBXGroup;
+			children = (
+				EF1AE5822197785500027507 /* AppDelegate.swift */,
+				EF1AE5842197785500027507 /* ViewController.swift */,
+				EF1AE5862197785500027507 /* Main.storyboard */,
+				EF1AE5892197785800027507 /* Assets.xcassets */,
+				EF1AE58B2197785800027507 /* LaunchScreen.storyboard */,
+				EF1AE58E2197785800027507 /* Info.plist */,
+			);
+			path = NewFlash;
+			sourceTree = "<group>";
+		};
+		EF1AE5962197785800027507 /* NewFlashTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1AE5972197785800027507 /* NewFlashTests.swift */,
+				EF1AE5992197785800027507 /* Info.plist */,
+			);
+			path = NewFlashTests;
+			sourceTree = "<group>";
+		};
+		EF1AE5A12197785800027507 /* NewFlashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1AE5A22197785900027507 /* NewFlashUITests.swift */,
+				EF1AE5A42197785900027507 /* Info.plist */,
+			);
+			path = NewFlashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1AE57E2197785500027507 /* NewFlash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1AE5A72197785900027507 /* Build configuration list for PBXNativeTarget "NewFlash" */;
+			buildPhases = (
+				EF1AE57B2197785500027507 /* Sources */,
+				EF1AE57C2197785500027507 /* Frameworks */,
+				EF1AE57D2197785500027507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewFlash;
+			productName = NewFlash;
+			productReference = EF1AE57F2197785500027507 /* NewFlash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1AE5922197785800027507 /* NewFlashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1AE5AA2197785900027507 /* Build configuration list for PBXNativeTarget "NewFlashTests" */;
+			buildPhases = (
+				EF1AE58F2197785800027507 /* Sources */,
+				EF1AE5902197785800027507 /* Frameworks */,
+				EF1AE5912197785800027507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1AE5952197785800027507 /* PBXTargetDependency */,
+			);
+			name = NewFlashTests;
+			productName = NewFlashTests;
+			productReference = EF1AE5932197785800027507 /* NewFlashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF1AE59D2197785800027507 /* NewFlashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1AE5AD2197785900027507 /* Build configuration list for PBXNativeTarget "NewFlashUITests" */;
+			buildPhases = (
+				EF1AE59A2197785800027507 /* Sources */,
+				EF1AE59B2197785800027507 /* Frameworks */,
+				EF1AE59C2197785800027507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1AE5A02197785800027507 /* PBXTargetDependency */,
+			);
+			name = NewFlashUITests;
+			productName = NewFlashUITests;
+			productReference = EF1AE59E2197785800027507 /* NewFlashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1AE5772197785500027507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Anthony Edwards";
+				TargetAttributes = {
+					EF1AE57E2197785500027507 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EF1AE5922197785800027507 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF1AE57E2197785500027507;
+					};
+					EF1AE59D2197785800027507 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF1AE57E2197785500027507;
+					};
+				};
+			};
+			buildConfigurationList = EF1AE57A2197785500027507 /* Build configuration list for PBXProject "NewFlash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1AE5762197785500027507;
+			productRefGroup = EF1AE5802197785500027507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1AE57E2197785500027507 /* NewFlash */,
+				EF1AE5922197785800027507 /* NewFlashTests */,
+				EF1AE59D2197785800027507 /* NewFlashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1AE57D2197785500027507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1AE58D2197785800027507 /* LaunchScreen.storyboard in Resources */,
+				EF1AE58A2197785800027507 /* Assets.xcassets in Resources */,
+				EF1AE5882197785500027507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1AE5912197785800027507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1AE59C2197785800027507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1AE57B2197785500027507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1AE5852197785500027507 /* ViewController.swift in Sources */,
+				EF1AE5832197785500027507 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1AE58F2197785800027507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1AE5982197785800027507 /* NewFlashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1AE59A2197785800027507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1AE5A32197785900027507 /* NewFlashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1AE5952197785800027507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1AE57E2197785500027507 /* NewFlash */;
+			targetProxy = EF1AE5942197785800027507 /* PBXContainerItemProxy */;
+		};
+		EF1AE5A02197785800027507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1AE57E2197785500027507 /* NewFlash */;
+			targetProxy = EF1AE59F2197785800027507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1AE5862197785500027507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1AE5872197785500027507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1AE58B2197785800027507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1AE58C2197785800027507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1AE5A52197785900027507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF1AE5A62197785900027507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1AE5A82197785900027507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPH32LWGYV;
+				INFOPLIST_FILE = NewFlash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnthonyE.NewFlash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1AE5A92197785900027507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPH32LWGYV;
+				INFOPLIST_FILE = NewFlash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnthonyE.NewFlash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF1AE5AB2197785900027507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPH32LWGYV;
+				INFOPLIST_FILE = NewFlashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnthonyE.NewFlashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewFlash.app/NewFlash";
+			};
+			name = Debug;
+		};
+		EF1AE5AC2197785900027507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPH32LWGYV;
+				INFOPLIST_FILE = NewFlashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnthonyE.NewFlashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewFlash.app/NewFlash";
+			};
+			name = Release;
+		};
+		EF1AE5AE2197785900027507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPH32LWGYV;
+				INFOPLIST_FILE = NewFlashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnthonyE.NewFlashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewFlash;
+			};
+			name = Debug;
+		};
+		EF1AE5AF2197785900027507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPH32LWGYV;
+				INFOPLIST_FILE = NewFlashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnthonyE.NewFlashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewFlash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1AE57A2197785500027507 /* Build configuration list for PBXProject "NewFlash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1AE5A52197785900027507 /* Debug */,
+				EF1AE5A62197785900027507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1AE5A72197785900027507 /* Build configuration list for PBXNativeTarget "NewFlash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1AE5A82197785900027507 /* Debug */,
+				EF1AE5A92197785900027507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1AE5AA2197785900027507 /* Build configuration list for PBXNativeTarget "NewFlashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1AE5AB2197785900027507 /* Debug */,
+				EF1AE5AC2197785900027507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1AE5AD2197785900027507 /* Build configuration list for PBXNativeTarget "NewFlashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1AE5AE2197785900027507 /* Debug */,
+				EF1AE5AF2197785900027507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1AE5772197785500027507 /* Project object */;
+}
