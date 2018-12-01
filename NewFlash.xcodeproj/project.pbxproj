@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF02BB93219A2B7300F94EB3 /* CreationViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02BB92219A2B7300F94EB3 /* CreationViewControler.swift */; };
+		EF02BB95219A327100F94EB3 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02BB94219A327100F94EB3 /* CreationViewController.swift */; };
 		EF1AE5832197785500027507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AE5822197785500027507 /* AppDelegate.swift */; };
 		EF1AE5852197785500027507 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AE5842197785500027507 /* ViewController.swift */; };
 		EF1AE5882197785500027507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1AE5862197785500027507 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF02BB92219A2B7300F94EB3 /* CreationViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewControler.swift; sourceTree = "<group>"; };
+		EF02BB94219A327100F94EB3 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 		EF1AE57F2197785500027507 /* NewFlash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewFlash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1AE5822197785500027507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF1AE5842197785500027507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 		EF1AE5762197785500027507 = {
 			isa = PBXGroup;
 			children = (
+				EF02BB94219A327100F94EB3 /* CreationViewController.swift */,
 				EF1AE5812197785500027507 /* NewFlash */,
 				EF1AE5962197785800027507 /* NewFlashTests */,
 				EF1AE5A12197785800027507 /* NewFlashUITests */,
@@ -100,6 +105,7 @@
 				EF1AE5822197785500027507 /* AppDelegate.swift */,
 				EF1AE5842197785500027507 /* ViewController.swift */,
 				EF1AE5862197785500027507 /* Main.storyboard */,
+				EF02BB92219A2B7300F94EB3 /* CreationViewControler.swift */,
 				EF1AE5892197785800027507 /* Assets.xcassets */,
 				EF1AE58B2197785800027507 /* LaunchScreen.storyboard */,
 				EF1AE58E2197785800027507 /* Info.plist */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF1AE5852197785500027507 /* ViewController.swift in Sources */,
+				EF02BB93219A2B7300F94EB3 /* CreationViewControler.swift in Sources */,
 				EF1AE5832197785500027507 /* AppDelegate.swift in Sources */,
+				EF02BB95219A327100F94EB3 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
