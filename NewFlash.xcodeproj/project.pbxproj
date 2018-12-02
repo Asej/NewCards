@@ -51,6 +51,7 @@
 		EF1AE59E2197785800027507 /* NewFlashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewFlashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1AE5A22197785900027507 /* NewFlashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFlashUITests.swift; sourceTree = "<group>"; };
 		EF1AE5A42197785900027507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFFC29C321B3939C008FC774 /* NewFlash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewFlash.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 		EF1AE5812197785500027507 /* NewFlash */ = {
 			isa = PBXGroup;
 			children = (
+				EFFC29C321B3939C008FC774 /* NewFlash.entitlements */,
 				EF1AE5822197785500027507 /* AppDelegate.swift */,
 				EF1AE5842197785500027507 /* ViewController.swift */,
 				EF1AE5862197785500027507 /* Main.storyboard */,
@@ -199,6 +201,11 @@
 				TargetAttributes = {
 					EF1AE57E2197785500027507 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
 					};
 					EF1AE5922197785800027507 = {
 						CreatedOnToolsVersion = 10.1;
@@ -440,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewFlash/NewFlash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPH32LWGYV;
 				INFOPLIST_FILE = NewFlash/Info.plist;
@@ -458,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewFlash/NewFlash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPH32LWGYV;
 				INFOPLIST_FILE = NewFlash/Info.plist;
